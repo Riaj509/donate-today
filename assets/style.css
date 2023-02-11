@@ -96,7 +96,6 @@ hr {
 .donate-plan {
     width: 1106px;
     margin: 130px auto;
-    /* background-color: yellow; */
 }
 
 .donate-plan .donate-title {
@@ -113,16 +112,23 @@ hr {
 
 .plan {
     display: flex;
-}
-
-.plan {
     gap: 24px;
 }
 
-.contribute {
+.contribute:nth-child(1) {
     padding: 63px 23px;
-    background: yellow;
     border-radius: 5px;
+    background: rgba(79, 157, 166, 0.1);
+}
+.contribute:nth-child(2) {
+    padding: 63px 23px;
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.1);
+}
+.contribute:nth-child(3) {
+    padding: 63px 23px;
+    border-radius: 5px;
+    background: rgba(247, 247, 82, 0.3);
 }
 
 .icon {
@@ -135,6 +141,31 @@ hr {
     font-size: 24px;
     color: #121212;
 }
-
 .contribute-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+/* Contribute styles */
+.how-to-contribute-1 {
+    max-width: 1440px;
+    margin: 130px auto;
+}
+.contri {
+    display: flex;
+
+    background-color: pink;
+
+    align-items: center;
+}
+
+.contri-1 .donate-title {
+    text-align: left;
+}
+.contri-1 .donate-description {
+    text-align: left;
+}
+.contri-1 .donate-description:nth-child(1) {
+    margin-bottom: 20px;
 }
