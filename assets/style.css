@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+}
+h1 {
+    font-family: "Inter";
+    font-style: normal;
+}
+p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.head {
+    max-width: 1440px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 175px 305px;
+    color: white;
+    background-image: url("/donate-today/images/donation7.jpg");
+}
+.title {
+    font-weight: 700;
+    font-size: 65px;
+}
+.description {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.head .title:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    height: 56px;
+    background: #ff5959;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border: 0;
+}
+
+/* Main styles */
+
+/* donate section styles */
+.donate {
+    width: 765px;
+    margin: 130px auto;
+    text-align: center;
+}
+.donate-title {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.donate-description {
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.donate-amount {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 60px;
+}
+.amount {
+    background: #fafafa;
+    padding: 43px 24.5px;
+    border-radius: 5px;
+}
+.amount:nth-of-type(2) {
+    background: #ffeeee;
+    border: 2px solid #ff5959;
+    color: red;
+}
+.value {
+    font-size: 30px;
+    font-weight: 700;
+}
+.other-description {
+    color: #707070;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+/* Donate plan styles*/
+
+.donate-plan {
+    width: 1106px;
+    margin: 130px auto;
+    /* background-color: yellow; */
+}
+
+.donate-plan .donate-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.donate-plan .donate-description {
+    width: 691px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan {
+    display: flex;
+}
+
+.plan {
+    gap: 24px;
+}
+
+.contribute {
+    padding: 63px 23px;
+    background: yellow;
+    border-radius: 5px;
+}
+
+.icon {
+    margin-bottom: 30px;
+}
+
+.contribute-title {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+
+.contribute-description {
+}
