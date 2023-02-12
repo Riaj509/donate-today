@@ -11,7 +11,7 @@ p {
 }
 .head {
     max-width: 1440px;
-    margin: 0px auto;
+    margin: 0 auto;
     text-align: center;
     padding: 175px 305px;
     color: white;
@@ -48,25 +48,33 @@ p {
 /* Main styles */
 
 /* donate section styles */
-.donate {
-    width: 765px;
+
+.main-section {
+    max-width: 1108px;
     margin: 130px auto;
+}
+
+.donate {
     text-align: center;
 }
+
 .donate-title {
     font-size: 45px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .donate-description {
     color: #707070;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .donate-amount {
     display: flex;
     gap: 22px;
     margin-bottom: 60px;
+    justify-content: center;
 }
 .amount {
     background: #fafafa;
@@ -85,6 +93,7 @@ p {
 .other-description {
     color: #707070;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 hr {
@@ -94,8 +103,8 @@ hr {
 /* Donate plan styles*/
 
 .donate-plan {
-    width: 1106px;
     margin: 130px auto;
+    text-align: center;
 }
 
 .donate-plan .donate-title {
@@ -149,23 +158,119 @@ hr {
 
 /* Contribute styles */
 .how-to-contribute-1 {
-    max-width: 1440px;
     margin: 130px auto;
 }
 .contri {
     display: flex;
-
-    background-color: pink;
-
-    align-items: center;
+    /* align-items: center; */
+    gap: 84px;
+}
+.contri:nth-child(1) {
+    margin-bottom: 130px;
 }
 
-.contri-1 .donate-title {
+.contri-1 .donatee-title {
     text-align: left;
-}
-.contri-1 .donate-description {
-    text-align: left;
-}
-.contri-1 .donate-description:nth-child(1) {
     margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+.contri-1 .donatee-description {
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-align: left;
+}
+
+.btn-secondary {
+    height: 56px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 16px 21px;
+    background: #ff5959;
+    border-radius: 5px;
+    color: white;
+}
+
+/* updates styles */
+
+.updates {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.updates-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.updates-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.updates-send {
+    display: flex;
+    justify-content: center;
+    background: #fff4d6;
+    padding: 80px 160px;
+}
+.eml {
+    width: 260px;
+    padding: 14px 17px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #aa9f9f;
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px 0px 0px 5px;
+    border: 0;
+}
+.send {
+    padding: 12px 42px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    background: #ff5959;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* footer styles */
+.footer {
+    max-width: 1580px;
+    margin: 0 auto;
+    background: #000;
+    text-align: center;
+}
+
+.footer-part {
+    padding: 45px 120px;
+}
+
+.footer-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ff5959;
+    font-family: "Lobster";
+    font-style: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #d9dbe1;
 }
